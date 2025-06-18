@@ -28,4 +28,4 @@ jobs:
         run: npx playwright install --with-deps
 
       - name: Run tests
-        run: npm run formPage
+        run: npm run formPageHeadless

@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "formPage": "npx playwright test form_page.spec.ts --headed",
+    "formPage": "npx playwright test form_page.spec.ts",
     "formPageHeadless": "npx playwright test form_page.spec.ts --headless"
   },
   "keywords": [],
